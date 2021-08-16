@@ -4,7 +4,7 @@
 
 #Automated installation of required libraries for OS developement
 
-setup='yum install -y'
+setup='apt-get install -y'
 
 for library in $(cat ct_plus_library.lst); do
   $setup $library
